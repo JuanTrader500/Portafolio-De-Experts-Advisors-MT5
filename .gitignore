@@ -1,0 +1,14 @@
+cat <<EOT > .gitignore
+# Ignorar archivos temporales de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# Ignorar archivos de configuración de entorno
+__pycache__/
+*.pyc
+
+# Opcional: Si NO quieres subir los CSVs (datos), descomenta la siguiente línea.
+*.csv
+*.xlsx
+EOT
